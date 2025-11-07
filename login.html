@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just a web</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="glass-card">
+    <div class="top-row">
+      <div>
+        <label for="inpu">Enter a text</label><br>
+        <input type="text" id="inpu" placeholder="Type something...">
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:.5rem;align-items:flex-end;">
+        <label class="hint">press OK to show</label>
+        <button id="button">OK</button>
+      </div>
+    </div>
+
+    <div class="result-wrap">
+      <label>Ur text is</label>
+      <h1 id="usertext"></h1>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
